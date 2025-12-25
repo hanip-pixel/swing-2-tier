@@ -125,7 +125,6 @@ public class KaryawanFrame extends JFrame {
             karyawanTable.getColumnModel().getColumn(i).setCellRenderer(leftRenderer);
         }
         
-        // Atur header juga rata kiri
         karyawanTable.getTableHeader().setDefaultRenderer(headerRenderer);
         
         // Atau bisa juga atur per kolom jika ingin berbeda alignment

@@ -105,7 +105,7 @@ public class KaryawanDialog extends JDialog {
         karyawan.setDepartment(departmentField.getText().trim());
         karyawan.setPosition(positionField.getText().trim());
         
-        // Parse salary dengan benar (hilangkan pemisah ribuan)
+        
         String salaryText = salaryField.getText().trim();
         try {
             // Hapus titik sebagai pemisah ribuan jika ada

@@ -16,7 +16,7 @@ public class KaryawanTableModel extends AbstractTableModel {
         "Salary", "Hire Date", "Email", "Phone" 
     };
     
-    // Format untuk Indonesia
+    
     private final NumberFormat currencyFormat = NumberFormat.getCurrencyInstance(new Locale("id", "ID"));
     private final DateTimeFormatter dateFormatter = DateTimeFormatter.ofPattern("dd-MM-yyyy");
 
